@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    background-color: blue;
+    color: #fff;
+    text-align: end;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav, .nav-list{
+    display: flex;
+}
+
+.nav{
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+.nav-list{
+    align-self: flex-end;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.img{
+    width: 100%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.content{
+    margin: 20px 40px;
+}
+
+.paragraph{
+    margin: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.form{
+    margin-left: 50vw;
+    margin-top: 40px;
+}
+
+.form-control{
+    margin-top: 20px;
+}
+
+.input{
+    width: 200px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.textarea{
+    width: 440px;
+    min-height: 200px;
+}
+
+.btn{
+    width: 440px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer{
+    margin-bottom: 50px;
+}
